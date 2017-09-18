@@ -1,47 +1,4 @@
-<!-- <?php
-ob_start();
-// ここから、register.phpと同様
-session_start();
-if( isset($_SESSION['user']) != "") {
-	header("Location: home.php");
-}
-include_once 'dbconnect.php';
-// ここまで、register.phpと同様
-?>
 
-<?php
-if(isset($_POST['login'])) {
-
-	$student_id = $mysqli->real_escape_string($_POST['student_id']);
-	$password = $mysqli->real_escape_string($_POST['password']);
-
-	// クエリの実行
-	$query = "SELECT * FROM users WHERE student_id='$student_id'";
-	$result = $mysqli->query($query);
-	if (!$result) {
-		print('クエリーが失敗しました。' . $mysqli->error);
-		$mysqli->close();
-		exit();
-	}
-
-	// パスワード(暗号化済み）とユーザーIDの取り出し
-	while ($row = $result->fetch_assoc()) {
-		$db_hashed_pwd = $row['password'];
-		$user_id = $row['user_id'];
-	}
-
-	// データベースの切断
-	$result->close();
-
-	// ハッシュ化されたパスワードがマッチするかどうかを確認
-	if (password_verify($password, $db_hashed_pwd)) {
-		$_SESSION['user'] = $user_id;
-		header("Location: home.php");
-		exit;
-	} else { ?>
-		<div class="alert alert-danger" role="alert">学生番号6桁とパスワードが一致しません。</div>
-	<?php }
-} ?> -->
 
 <!DOCTYPE HTML>
 <html lang="ja">
