@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 ob_start();
 // ここから、register.phpと同様
 session_start();
@@ -41,7 +41,7 @@ if(isset($_POST['login'])) {
 	} else { ?>
 		<div class="alert alert-danger" role="alert">学生番号6桁とパスワードが一致しません。</div>
 	<?php }
-} ?>
+} ?> -->
 
 <!DOCTYPE HTML>
 <html lang="ja">
