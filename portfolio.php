@@ -159,6 +159,7 @@ for ($i = 0; $i < 7; $i++) {
 </head>
 </head>
 <body>
+<div class="container">
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
 <h1>週間研究ポートフォリオ</h1>
@@ -187,7 +188,7 @@ for ($i = 0; $i < 7; $i++) {
 	<li><a href="logout.php?logout">ログアウト</a></li>
  </ul>
 
-
+</div>
 </div>
 </body>
 </html>
