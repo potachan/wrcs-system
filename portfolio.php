@@ -159,12 +159,11 @@ for ($i = 0; $i < 7; $i++) {
 </head>
 </head>
 <body>
-<div class="container">
+
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
 <h1>週間研究ポートフォリオ</h1>
 
-<div  class="container">
 <table class="table table-striped table-bordered table-hover table-condensed">
 
 <tr>
@@ -176,10 +175,8 @@ for ($i = 0; $i < 7; $i++) {
 
 <tr><th class="col-md-1 col-xs-3">日付</th><th class="col-md-1 col-xs-4">時間</th><th class="col-md-4 col-xs-5">内容</th></tr>
 <?php echo "$table"; ?>
-</table>
 
-</div>
-</div>
+</table>
 
  <ul class="nav nav-tabs nav-justified">
     <li><a href="home.php?record">ホーム</a></li>
