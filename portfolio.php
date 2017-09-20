@@ -173,7 +173,7 @@ for ($i = 0; $i < 7; $i++) {
 </tr>
 
 
-<tr><th class="col-md-1 col-xs-2">日付</th><th class="col-md-2 col-xs-2">時間</th><th class="col-md-9 col-xs-8">内容</th></tr>
+<tr><th class="col-md-1 col-xs-4">日付</th><th class="col-md-2 col-xs-4">時間</th><th class="col-md-9 col-xs-4">内容</th></tr>
 <?php echo "$table"; ?>
 
 
