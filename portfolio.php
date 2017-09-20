@@ -176,9 +176,9 @@ for ($i = 0; $i < 7; $i++) {
 
 <tr><th class="col-md-1 col-xs-3">日付</th><th class="col-md-1 col-xs-4">時間</th><th class="col-md-4 col-xs-5">内容</th></tr>
 <?php echo "$table"; ?>
-
-
 </table>
+
+</div>
 </div>
 
  <ul class="nav nav-tabs nav-justified">
@@ -188,7 +188,7 @@ for ($i = 0; $i < 7; $i++) {
 	<li><a href="logout.php?logout">ログアウト</a></li>
  </ul>
 
-</div>
+
 </div>
 </body>
 </html>
