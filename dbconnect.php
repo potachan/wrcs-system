@@ -4,12 +4,17 @@ require_once('./core/config.php');
 
 
 $mysqli = new mysqli($host, $username, $password, $dbname);
-$mysqli->set_charset("utf8")
-
 
 if ($mysqli->connect_error) {
 	error_log($mysqli->connect_error);
 	exit;
+}
+
+/* 文字セットを utf8 に変更します */
+if (!$mysqli->set_charset("utf8")) {
+    printf("Error loading character set utf8: %s\n", $mysqli->error);
+} else {
+    printf("Current character set: %s\n", $mysqli->character_set_name());
 }
 
 
