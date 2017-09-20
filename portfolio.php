@@ -157,7 +157,7 @@ for ($i = 0; $i < 7; $i++) {
 </head>
 </head>
 <body>
-<div class="col-xs-6 col-xs-offset-3">
+
 
 <h1>週間研究ポートフォリオ</h1>
 
