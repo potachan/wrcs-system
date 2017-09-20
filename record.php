@@ -33,7 +33,7 @@ $result->close();
 <!DOCTYPE HTML>
 <html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>週報作成支援システム</title>
 <link rel="stylesheet" href="style.css">
@@ -69,15 +69,9 @@ if(isset($_POST['record'])) {
 
 	// POSTされた情報をDBに格納する
 	if(isset($oma)) {
-		$query = "INSERT INTO mogemoge(comment) VALUES('俺はもうabcd')";
-		//$query = "UPDATE portfolio SET research_time = '$research_time', comment='$comment' WHERE day = '$today' AND student_id = '$student_id'";
-		//echo "ok";
+		$query = "UPDATE portfolio SET research_time = '$research_time', comment='$comment' WHERE day = '$today' AND student_id = '$student_id'";
 	} else {
-
-		$query = "INSERT INTO mogemoge(comment) VALUES('俺はもうabcd')";
-		//$query = "INSERT INTO portfolio(student_id,research_time,comment,day) VALUES('$student_id','$research_time','$comment','$today')";
-
-		//echo "no";
+		$query = "INSERT INTO portfolio(student_id,research_time,comment,day) VALUES('$student_id','$research_time','$comment','$today')";
 	}
 
 	if($mysqli->query($query)) {  ?>
