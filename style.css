@@ -1,4 +1,6 @@
 /* レスポンシブのフォントサイズ指定 */
+h1.sample3 {white-space: nowrap;}
+
 
 @media screen and (min-width: 0px) and (max-width : 767px){
     * {
