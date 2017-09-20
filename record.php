@@ -33,7 +33,7 @@ $result->close();
 <!DOCTYPE HTML>
 <html lang="ja">
 <head>
-<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>週報作成支援システム</title>
 <link rel="stylesheet" href="style.css">
