@@ -38,9 +38,9 @@ $result->close();
 <title>週報作成支援システム</title>
 <link rel="stylesheet" href="style.css">
 <!-- Bootstrap読み込み（スタイリングのため） -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="//code.jquery.com/jquery.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 </head>
 <body>
