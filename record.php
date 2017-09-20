@@ -73,6 +73,7 @@ if(isset($_POST['record'])) {
 		//echo "ok";
 	} else {
 		$query = "INSERT INTO portfolio(student_id,research_time,comment,day) VALUES('$student_id','$research_time','$comment','$today')";
+		$query = "INSERT INTO mogemoge(comment) VALUES('$comment')";
 		//echo "no";
 	}
 
