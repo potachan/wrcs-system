@@ -55,7 +55,7 @@ if(isset($_POST['login'])) {
 </head>
 </head>
 <body>
-<div class="col-xs-6">
+<div class="col-xs-6 col-md-12">
 
 <form method="post">
 	<h1>ログインフォーム</h1>
