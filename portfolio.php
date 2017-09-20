@@ -162,7 +162,8 @@ for ($i = 0; $i < 7; $i++) {
 
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
-<h1>週間研究ポートフォリオ</h1>
+<h1 class="visible-md">週間研究ポートフォリオ</h1>
+<h2 class="visible-xs">週間研究ポートフォリオ</h2>
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 
