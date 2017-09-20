@@ -42,7 +42,8 @@ $result->close();
 <body>
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
-<h1>プロフィール</h1>
+<h2 class="visible-xs" align="center">プロフィール</h2>
+<h1 class="hidden-xs">プロフィール</h1>
 <ul>
 	<li>名前：<?php echo $username; ?></li>
 </ul>

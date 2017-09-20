@@ -85,7 +85,8 @@ if(isset($_POST['record'])) {
 } ?>
 
 <form method="post">
-	<h1>研究記録フォーム</h1>
+	<h2 class="visible-xs" align="center">研究記録フォーム</h2>
+	<h1 class="hidden-xs">研究記録フォーム</h1>
 	<div class="form-group">
 		<input type="text" class="form-control" name="comment" placeholder="内容" required />
 	</div>

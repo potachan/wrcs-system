@@ -46,7 +46,8 @@ if(isset($_POST['signup'])) {
 } ?>
 
 <form method="post">
-	<h1>会員登録フォーム</h1>
+	<h2 class="visible-xs" align="center">会員登録フォーム</h2>
+	<h1 class="hidden-xs">会員登録フォーム</h1>
 	<div class="form-group">
 		<input type="text" class="form-control" name="username" placeholder="ユーザー名" required />
 	</div>

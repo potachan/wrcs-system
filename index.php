@@ -58,7 +58,8 @@ if(isset($_POST['login'])) {
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
 <form method="post">
-	<h1>ログインフォーム</h1>
+	<h2 class="visible-xs" align="center">ログインフォーム</h2>
+	<h1 class="hidden-xs">ログインフォーム</h1>
 	<div class="form-group">
 		<input input pattern="[1-9][0-9]*" maxlength="6" minlength="6" class="form-control" name="student_id" placeholder="学籍番号6桁" required />
 	</div>
