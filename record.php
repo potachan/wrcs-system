@@ -72,8 +72,9 @@ if(isset($_POST['record'])) {
 		$query = "UPDATE portfolio SET research_time = '$research_time', comment='$comment' WHERE day = '$today' AND student_id = '$student_id'";
 		//echo "ok";
 	} else {
+		$query = "INSERT INTO mogemoge(comment) VALUES('俺はもう')";
 		$query = "INSERT INTO portfolio(student_id,research_time,comment,day) VALUES('$student_id','$research_time','$comment','$today')";
-		$query = "INSERT INTO mogemoge(comment) VALUES('$comment')";
+
 		//echo "no";
 	}
 
