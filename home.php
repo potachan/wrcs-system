@@ -40,7 +40,7 @@ $result->close();
 </head>
 </head>
 <body>
-<div class="col-xs-6 col-xs-offset-3">
+<div class="col-xs-12 col-md-6 col-md-offset-3">
 
 <h1>プロフィール</h1>
 <ul>
