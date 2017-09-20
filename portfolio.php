@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set('Asia/Tokyo');
+
 session_start();
 include_once 'dbconnect.php';
 if(!isset($_SESSION['user'])) {
@@ -157,17 +159,9 @@ for ($i = 0; $i < 7; $i++) {
 </head>
 </head>
 <body>
+<div class="col-xs-6 col-xs-offset-3">
 
 <h1>週間研究ポートフォリオ</h1>
-
-<?php
-echo "東京（協定世界時＋9時間）：" . date("Y/m/d H:i:s");
-?>
-<hr />
-<?php
-date_default_timezone_set('Asia/Tokyo');
-echo "東京（協定世界時＋9時間）：" . date("Y/m/d H:i:s");
-?>
 
 <div  class="container">
 <table class="table table-striped table-bordered table-hover table-condensed">

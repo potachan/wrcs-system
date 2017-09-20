@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set('Asia/Tokyo');
+
 session_start();
 if( isset($_SESSION['user']) != "") {
 	// ログイン済みの場合はリダイレクト
@@ -13,7 +15,7 @@ include_once 'dbconnect.php';
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>週報作成システム</title>
+<title>週報作成支援システム</title>
 <link rel="stylesheet" href="style.css">
 
 <!-- Bootstrap読み込み（スタイリングのため） -->

@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set('Asia/Tokyo');
+
 session_start();
 include_once 'dbconnect.php';
 if(!isset($_SESSION['user'])) {
