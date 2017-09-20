@@ -158,8 +158,16 @@ for ($i = 0; $i < 7; $i++) {
 </head>
 <body>
 
-
 <h1>週間研究ポートフォリオ</h1>
+
+<?php
+echo "東京（協定世界時＋9時間）：" . date("Y/m/d H:i:s");
+?>
+<hr />
+<?php
+date_default_timezone_set('Asia/Tokyo');
+echo "東京（協定世界時＋9時間）：" . date("Y/m/d H:i:s");
+?>
 
 <div  class="container">
 <table class="table table-striped table-bordered table-hover table-condensed">
