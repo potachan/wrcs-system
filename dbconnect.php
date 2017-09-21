@@ -11,11 +11,11 @@ if ($mysqli->connect_error) {
 }
 
 /* 文字セットを utf8 に変更します */
-//if (!$mysqli->set_charset("utf8")) {
-//    printf("Error loading character set utf8: %s\n", $mysqli->error);
-//} else {
-//    printf("Current character set: %s\n", $mysqli->character_set_name());
-//}
+if (!$mysqli->set_charset("utf8")) {
+    printf("Error loading character set utf8: %s\n", $mysqli->error);
+} else {
+    printf("Current character set: %s\n", $mysqli->character_set_name());
+}
 
 
 // if(!mysql_connect("localhost","root","root"))
