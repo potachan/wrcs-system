@@ -137,7 +137,7 @@ for ($i = 0; $i < 7; $i++) {
 	$stmt->close();
 
 	if ($student_id == $student_id2 && isset($oma)) {
-		$table .= '<tr><td>'.$t.'&nbsp;'.$weekjp[$weekno].'</td><td>'.$research_time.'</td><td>'.$comment.'</td></tr>'.PHP_EOL;
+		$table .= '<tr><td>'.$t.'&nbsp;'.$weekjp[$weekno].'</td><td>'.$research_time."時間".'</td><td>'.$comment.'</td></tr>'.PHP_EOL;
 
 	}
 	else {
