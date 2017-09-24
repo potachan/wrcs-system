@@ -44,14 +44,14 @@ $result->close();
 </head>
 <body>
 
-<div class="col-xs-12 col-md-6 col-md-offset-3">
+<div class="col-xs-12 col-md-4 col-md-offset-3">
 
 <h2 class="visible-xs" align="center">週間研究ポートフォリオ</h2>
 <h1 class="hidden-xs">週間研究ポートフォリオ</h1>
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 
-<tr><th class="col-md-2 col-xs-4">学籍番号</th><th class="col-md-1 col-xs-3">氏名</th></tr>
+<tr><th class="col-md-1 col-xs-3">学籍番号</th><th class="col-md-1 col-xs-3">氏名</th></tr>
 
 <?php
   $query = "SELECT * FROM users";
