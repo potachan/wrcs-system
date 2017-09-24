@@ -170,9 +170,9 @@ for ($i = 0; $i < 7; $i++) {
 <table class="table table-striped table-bordered table-hover table-condensed">
 
 <tr>
-<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $pre_week;?>">&laquo; 前週</a></td>
+<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $pre_week;?>&select_id=<?php echo $student_id;?>">&laquo; 前週</a></td>
 <th><?php echo $year;?> 年 <?php echo $month;?> 月</td>
-<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $next_week;?>">次週 &raquo;</a></td>
+<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $next_week;?>&select_id=<?php echo $student_id;?>">次週 &raquo;</a></td>
 </tr>
 
 
