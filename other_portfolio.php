@@ -166,9 +166,14 @@ for ($i = 0; $i < 7; $i++) {
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
 <h2 class="visible-xs" align="center">週間研究ポートフォリオ </h2>
-<h4 class="visible-xs" align="center"> <?php echo "$select_name";?> </h4>
 <h1 class="hidden-xs">週間研究ポートフォリオ</h1>
-<h2 class="hidden-xs"> <?php echo "$select_name";?> </h2>
+
+
+<p>
+<h4 class="visible-xs" align="center"> <?php echo "$select_name";?> </h4>
+<h3 class="hidden-xs"> <?php echo "$select_name";?> </h3>
+<a href="other.php" class="btn btn-default" >戻る</a>
+</p>
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 
