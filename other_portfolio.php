@@ -166,16 +166,16 @@ for ($i = 0; $i < 7; $i++) {
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
 <h2 class="visible-xs" align="center">週間研究ポートフォリオ </h2>
-<h3 class="visible-xs" align="center"> <?php echo $select_name;?> </h3>
+<h3 class="visible-xs" align="center"> <?php echo "$select_name";?> </h3>
 <h1 class="hidden-xs">週間研究ポートフォリオ</h1>
-<h2 class="hidden-xs"> <?php echo $select_name;?> </h2>
+<h2 class="hidden-xs"> <?php echo "$select_name";?> </h2>
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 
 <tr>
-<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $pre_week;?>&select_id=<?php echo $select_id;?>&select_name=<?php echo $select_name;?>">&laquo; 前週</a></td>
+<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $pre_week;?>&select_id=<?php echo $select_id;?>&select_name=<?php echo "$select_name";?>">&laquo; 前週</a></td>
 <th><?php echo $year;?> 年 <?php echo $month;?> 月</td>
-<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $next_week;?>&select_id=<?php echo $select_id;?>&select_name=<?php echo $select_name;?>">次週 &raquo;</a></td>
+<th><a href="<?php $_SERVER['SCRIPT_NAME'];?>?date=<?php echo $next_week;?>&select_id=<?php echo $select_id;?>&select_name=<?php echo "$select_name";?>">次週 &raquo;</a></td>
 </tr>
 
 
