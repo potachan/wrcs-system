@@ -44,7 +44,7 @@ $result->close();
 </head>
 <body>
 
-<div class="col-xs-12 col-md-6 col-md-offset-3">
+<div class="col-xs-12 col-lg-6 col-lg-offset-3">
 
 <h2 class="visible-xs" align="center">週間研究ポートフォリオ</h2>
 <h1 class="hidden-xs">週間研究ポートフォリオ</h1>
