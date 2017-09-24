@@ -57,9 +57,11 @@ $result->close();
   $query = "SELECT * FROM users";
   $result = $mysqli->query($query);
   while ($row = $result->fetch_assoc()) {
+  	if($student_id !== $row['student_id']) {
       $username = $row['username'];
-      $student_id = $row['student_id'];
-      echo "<tr><td>$student_id</td><td><a href='other_portfolio.php?select_id=$student_id&select_name=$username'>$username</a></td></tr>";
+      $student_id2 = $row['student_id'];
+      echo "<tr><td>$student_id</td><td><a href='other_portfolio.php?select_id=$student_id2&select_name=$username'>$username</a></td></tr>";
+  }
   }
 ?>
 
