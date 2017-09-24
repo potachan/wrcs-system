@@ -122,7 +122,7 @@ for ($i = 0; $i < 7; $i++) {
 	$weekno = date('w', $timestamp);
 
 	$diff = null;
-	$diff = "SELECT * FROM portfolio WHERE day = '$ymd' AND student_id =  '$select_id'";
+	$diff = "SELECT * FROM portfolio WHERE day = '$ymd' AND student_id = '$select_id'";
 	$stmt = $mysqli->query($diff);
 	$oma = null;
 	$student_id2 = null;
@@ -132,7 +132,7 @@ for ($i = 0; $i < 7; $i++) {
 		$oma = $row['day'];
 		$research_time = htmlspecialchars($row['research_time']);
 		$comment = htmlspecialchars($row['comment']);
-		$student_id2 = $row['student_id]';
+		$student_id2 = $row['student_id'];
 	}
 
 	// データベースの切断
