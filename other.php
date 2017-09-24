@@ -51,7 +51,7 @@ $result->close();
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 
-<tr><th class="col-md-1 col-xs-3">氏名</th><th class="col-md-2 col-xs-4">学籍番号</th></tr>
+<tr><th class="col-md-2 col-xs-4">学籍番号</th><th class="col-md-1 col-xs-3">氏名</th></tr>
 
 <?php
   $query = "SELECT * FROM users";
@@ -59,14 +59,14 @@ $result->close();
   while ($row = $result->fetch_assoc()) {
       $username = $row['username'];
       $student_id = $row['student_id'];
-      echo "<tr><td>$username</td><td>$student_id</td></tr>";
+      echo "<tr><td>$student_id</td><td><a href="home.php?">$username</a></td></tr>";
   }
 ?>
 
 </table>
 
  <ul class="nav nav-tabs nav-justified">
-    <li><a href="home.php?record">ホーム</a></li>
+    <li><a href="home.php?">ホーム</a></li>
 	<li><a href="record.php?record">記録ページ</a></li>
 	<li><a href="portfolio.php?portfolio">ポートフォリオ</a></li>
 	<li class="active"><a href="#">他者のポートフォリオ</a></li>
