@@ -168,10 +168,13 @@ for ($i = 0; $i < 7; $i++) {
 <h2 class="visible-xs" align="center">週間研究ポートフォリオ </h2>
 <h1 class="hidden-xs">週間研究ポートフォリオ</h1>
 
+<p class="visible-xs" align="center">
+<?php echo "$select_name";?>
+<a href="other.php" class="btn btn-default" >戻る</a>
+</p>
 
-<p>
-<h4 class="visible-xs" align="center"> <?php echo "$select_name";?> </h4>
-<h3 class="hidden-xs"> <?php echo "$select_name";?> </h3>
+<p class="hidden-xs">
+<?php echo "$select_name";?>
 <a href="other.php" class="btn btn-default" >戻る</a>
 </p>
 
