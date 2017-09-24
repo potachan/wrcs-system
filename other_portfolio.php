@@ -169,9 +169,9 @@ for ($i = 0; $i < 7; $i++) {
 <h1 class="hidden-xs">週間研究ポートフォリオ</h1>
 
 <p>
-<p class="visible-xs" align="center"><?php echo "$select_name";?></p>
+<p class="visible-xs" align="center"><?php echo "$select_name"."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";?></p>
 <p class="hidden-xs"><?php echo "$select_name"."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";?></p>>
-<a href="other.php" class="btn btn-default" >一覧に戻る</a>
+<a href="other.php" class="btn btn-default"> 一覧に戻る</a>
 </p>
 
 <table class="table table-striped table-bordered table-hover table-condensed">
