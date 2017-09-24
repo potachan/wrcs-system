@@ -52,7 +52,7 @@ $result->close();
     <li class="active"><a href="#">ホーム</a></li>
 	<li><a href="record.php?record">記録ページ</a></li>
 	<li><a href="portfolio.php?portfolio">ポートフォリオ</a></li>
-	<li><a href="other.php?">他者のポートフォリオ</a></li>
+	<li><a href="other.php?">他者の記録</a></li>
 	<li><a href="logout.php?logout">ログアウト</a></li>
  </ul>
 

@@ -51,7 +51,7 @@ $result->close();
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 
-<tr><th class="col-md-2 col-xs-3">学籍番号</th><th class="col-md-2 col-xs-3">氏名</th></tr>
+<tr><th class="col-lg-2 col-xs-3">学籍番号</th><th class="col-lg-2 col-xs-3">氏名</th></tr>
 
 <?php
   $query = "SELECT * FROM users";
