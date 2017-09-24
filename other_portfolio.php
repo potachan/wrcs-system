@@ -137,7 +137,7 @@ for ($i = 0; $i < 7; $i++) {
 	// データベースの切断
 	$stmt->close();
 
-	if ($'select_id' == $student_id2 && isset($oma)) {
+	if ($select_id == $student_id2 && isset($oma)) {
 		$table .= '<tr><td>'.$t.'&nbsp;'.$weekjp[$weekno].'</td><td>'.$research_time."時間".'</td><td>'.$comment.'</td></tr>'.PHP_EOL;
 
 	}
