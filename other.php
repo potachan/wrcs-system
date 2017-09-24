@@ -59,7 +59,7 @@ $result->close();
   while ($row = $result->fetch_assoc()) {
       $username = $row['username'];
       $student_id = $row['student_id'];
-      echo "<tr><td>$student_id</td><td><a href='other_portfolio.php?select_id=$student_id?select_name=&username'>$username</a></td></tr>";
+      echo "<tr><td>$student_id</td><td><a href='other_portfolio.php?select_id=$student_id?select_name=あへー'>$username</a></td></tr>";
   }
 ?>
 
