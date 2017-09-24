@@ -60,7 +60,7 @@ $result->close();
   	if($student_id !== $row['student_id']) {
       $username = $row['username'];
       $student_id2 = $row['student_id'];
-      echo "<tr><td>$student_id</td><td><a href='other_portfolio.php?select_id=$student_id2&select_name=$username'>$username</a></td></tr>";
+      echo "<tr><td>$student_id2</td><td><a href='other_portfolio.php?select_id=$student_id2&select_name=$username'>$username</a></td></tr>";
   }
   }
 ?>
