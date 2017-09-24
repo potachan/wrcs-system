@@ -120,6 +120,7 @@ for ($i = 0; $i < 7; $i++) {
 	$weekno = date('w', $timestamp);
 
 	$select_id = $_GET['select_id'];
+	echo $select_id;
 	$diff = null;
 	$diff = "SELECT * FROM portfolio WHERE day = '$ymd' AND student_id =  $select_id";
 	$stmt = $mysqli->query($diff);
