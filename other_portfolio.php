@@ -166,7 +166,7 @@ for ($i = 0; $i < 7; $i++) {
 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
 <h2 class="visible-xs" align="center">週間研究ポートフォリオ </h2>
-<h3 class="visible-xs" align="center"> <?php echo "$select_name";?> </h3>
+<h4 class="visible-xs" align="center"> <?php echo "$select_name";?> </h4>
 <h1 class="hidden-xs">週間研究ポートフォリオ</h1>
 <h2 class="hidden-xs"> <?php echo "$select_name";?> </h2>
 
