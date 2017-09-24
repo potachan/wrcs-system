@@ -182,9 +182,10 @@ for ($i = 0; $i < 7; $i++) {
 </table>
 
  <ul class="nav nav-tabs nav-justified">
-    <li><a href="home.php?record">ホーム</a></li>
+    <li><a href="home.php?">ホーム</a></li>
 	<li><a href="record.php?record">記録ページ</a></li>
-	<li class="active"><a href="#">ポートフォリオ</a></li>
+	<li><a href="portfolio.php?portfolio">ポートフォリオ</a></li>
+	<li class="active"><a href="#">他者の記録</a></li>
 	<li><a href="logout.php?logout">ログアウト</a></li>
  </ul>
 
