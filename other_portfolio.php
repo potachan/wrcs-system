@@ -26,6 +26,8 @@ while ($row = $result->fetch_assoc()) {
 	$student_id = $row['student_id'];
 }
 
+$select_id = $_GET['select_id'];
+
 // データベースの切断
 $result->close();
 
@@ -119,10 +121,8 @@ for ($i = 0; $i < 7; $i++) {
 	//指定日の曜日番号（日:0  月:1  火:2  水:3  木:4  金:5  土:6）を取得
 	$weekno = date('w', $timestamp);
 
-	$select_id = $_GET['select_id'];
-	echo $select_id;
 	$diff = null;
-	$diff = "SELECT * FROM portfolio WHERE day = '$ymd' AND student_id =  $select_id";
+	$diff = "SELECT * FROM portfolio WHERE day = '$ymd' AND student_id =  $select_id[0]";
 	$stmt = $mysqli->query($diff);
 	$oma = null;
 	$student_id2 = null;
@@ -138,7 +138,7 @@ for ($i = 0; $i < 7; $i++) {
 	// データベースの切断
 	$stmt->close();
 
-	if ($select_id == $student_id2 && isset($oma)) {
+	if ($select_id[0] == $student_id2 && isset($oma)) {
 		$table .= '<tr><td>'.$t.'&nbsp;'.$weekjp[$weekno].'</td><td>'.$research_time."時間".'</td><td>'.$comment.'</td></tr>'.PHP_EOL;
 
 	}
