@@ -59,7 +59,7 @@ $result->close();
   while ($row = $result->fetch_assoc()) {
       $username = $row['username'];
       $student_id = $row['student_id'];
-      echo "<tr><td> $username</td><td>$student_id　</td></tr>";
+      echo "<tr><td> $username　</td><td>　$student_id </td></tr>";
   }
 ?>
 
