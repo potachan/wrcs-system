@@ -11,7 +11,6 @@ include_once 'dbconnect.php';
 
 // ユーザーIDからユーザー名を取り出す
 $query = "SELECT * FROM users WHERE user_id=".$_SESSION['user']."";
-$result = $mysqli->query($query);
 
 $result = $mysqli->query($query);
 if (!$result) {

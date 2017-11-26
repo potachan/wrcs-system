@@ -1,12 +1,14 @@
- <?php
+<?php
 ob_start();
-// ここから、register.phpと同様
+
 session_start();
 if( isset($_SESSION['user']) != "") {
+	// ログイン済みの場合はリダイレクト
 	header("Location: home.php");
 }
+
+// DBとの接続
 include_once 'dbconnect.php';
-// ここまで、register.phpと同様
 ?>
 
 <?php

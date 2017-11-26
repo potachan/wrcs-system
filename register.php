@@ -1,5 +1,4 @@
 <?php
-date_default_timezone_set('Asia/Tokyo');
 
 session_start();
 if( isset($_SESSION['user']) != "") {
@@ -10,6 +9,7 @@ if( isset($_SESSION['user']) != "") {
 // DBとの接続
 include_once 'dbconnect.php';
 ?>
+
 <!DOCTYPE HTML>
 <html lang="ja">
 <head>
@@ -58,7 +58,7 @@ if(isset($_POST['signup'])) {
 		<input type="password" class="form-control" name="password" placeholder="パスワード" required />
 	</div>
 	<button type="submit" class="btn btn-default" name="signup">会員登録する</button>
-	<br>
+	<br></br><br></br>
 	<a href="index.php">ログインはこちら</a>
 </form>
 
