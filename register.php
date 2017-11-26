@@ -58,7 +58,7 @@ if(isset($_POST['signup'])) {
 		<input type="password" class="form-control" name="password" placeholder="パスワード" required />
 	</div>
 	<button type="submit" class="btn btn-default" name="signup">会員登録する</button>
-	<a href="btn btn-link" class="btn btn-link role="button">ログインはこちら</a>
+	<a href="index.php" class="btn btn-link role="button">ログインはこちら</a>
 </form>
 
 </div>
