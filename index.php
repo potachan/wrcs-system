@@ -69,7 +69,7 @@ if(isset($_POST['login'])) {
 		<input type="password" class="form-control" name="password" placeholder="パスワード" required />
 	</div>
 	<button type="submit" class="btn btn-default" name="login">ログインする</button>
-	<a href="register.php" class="btn btn-link role="button">会員登録はこちら</a>
+	<a href="register.php" class="btn btn-link role="button">会員登録はこちらあ</a>
 </form>
 
 </div>
