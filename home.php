@@ -50,7 +50,7 @@ $date = date('w');
 	<li>名前：<?php echo $username; ?></li>
 </ul>
 <p>
-<font size="5", color="red"><?php if($w == 5) echo "今日は月曜です！先週の週報は送りましたか？"?></font>
+<font size="5", color="red"><?php if($w == 1) echo "今日は月曜です！先週の週報は送りましたか？"?></font>
 </p>
 
  <ul class="nav nav-tabs nav-justified">
