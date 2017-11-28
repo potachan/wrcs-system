@@ -47,6 +47,7 @@ $result->close();
 <ul>
 	<li>名前：<?php echo $username; ?></li>
 </ul>
+<p><font size="large", color="red">先週の週報は送りましたか？</font></p>
 
  <ul class="nav nav-tabs nav-justified">
     <li class="active"><a href="#">ホーム</a></li>
